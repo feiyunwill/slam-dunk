@@ -2,6 +2,8 @@
 
 **Jacob Van Meter · Ayush Paul**
 
+[Paper](https://www.alphaxiv.org/abs/2611.slam-dunk)
+
 Standard VIO systems struggle to maintain accuracy with long trajectories in the wild, especially in egocentric settings, as evidenced by the gap between prior art and industry systems on the LaMAria benchmark. We find that a conventional offline bundle adjustment pipeline closes much of this gap, but plateaus at the level of strong public submissions, well below Aria's SLAM. We hypothesize that the remaining gap occurs because standard VIO models omit two physical phenomena: camera calibration drift and gyroscope intrinsic calibration. Modeling both in such a pipeline raises LaMAria's control-point score from 69.1 to 82.4 on the training set, and the resulting system, SLAM Dunk, matches Aria's SLAM on the LaMAria test set and is the first to score above it on three of five categories; it also ranks second on the UZH-FPV leaderboard.
 
 ## Run
